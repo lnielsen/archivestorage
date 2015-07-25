@@ -9,13 +9,13 @@ PACKAGES = [
 ]
 
 EXTENSIONS = [
-    "flask.ext.babel:Babel",
-    "flask.ext.sqlalchemy:SQLAlchemy",
+    #"flask_babel:Babel",
+    #"flask.ext.sqlalchemy:SQLAlchemy",
     "flask_appfactory.ext.jinja2",
-    "flask_appfactory.ext.cache",
-    "flask_appfactory.ext.collect",
-    "flask_appfactory.ext.admin",
-    "flask_appfactory.ext.restful",
+    #"flask_appfactory.ext.cache",
+    #"flask_appfactory.ext.collect",
+    #"flask_appfactory.ext.admin",
+    #"flask_appfactory.ext.restful",
     # Security/Login/Principal
     # Flask-Mail
     # Jasmine

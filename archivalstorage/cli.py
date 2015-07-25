@@ -4,11 +4,10 @@
 
 from __future__ import absolute_import, unicode_literals, print_function
 
-from flask_appfactory.cli import create_cli
+from flask_appfactory.cli import clifactory
 from .app import create_app
 
-
-cli = create_cli(create_app)
+cli = clifactory(create_app)
 
 
 def main():

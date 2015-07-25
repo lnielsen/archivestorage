@@ -4,12 +4,12 @@
 
 from __future__ import absolute_import, unicode_literals, print_function
 
-from flask_appfactory import create_app as appfactory_create_app
+from flask_appfactory import appfactory
 
 
 def create_app(**kwargs_config):
     """Application factory for Archival Storage."""
-    return appfactory_create_app(
+    return appfactory(
         'archivalstorage',
         'archivalstorage.config',
         **kwargs_config

@@ -34,7 +34,7 @@ setup(
     platforms='any',
     entry_points={
         'console_scripts': [
-            'archivalstorage = archivalstorage.cli:main',
+            'aipstore = archivalstorage.cli:main',
         ]
     },
     install_requires=[
